@@ -21,7 +21,7 @@ our @ObjectDependencies = qw(
 sub Configure {
     my ( $Self, %Param ) = @_;
 
-    $Self->Description('print Dump of all event based notifications.');
+    $Self->Description('Print dump of all event based notifications.');
 
     $Self->AddOption(
         Name        => 'id',
@@ -34,7 +34,7 @@ sub Configure {
 
     $Self->AddOption(
         Name        => 'name',
-        Description => "name of notification to be dumped.",
+        Description => "Name of notification to be dumped.",
         Required    => 0,
         HasValue    => 1,
         Multiple    => 1,
@@ -47,7 +47,7 @@ sub Configure {
 sub Run {
     my ( $Self, %Param ) = @_;
 
-    $Self->Print("<yellow>print Dump of all event based notifications...</yellow>\n");
+    $Self->Print("<yellow>Print dump of all event based notifications...</yellow>\n");
 
     my $NotificationObject = $Kernel::OM->Get('Kernel::System::NotificationEvent');
     my $MainObject         = $Kernel::OM->Get('Kernel::System::Main');

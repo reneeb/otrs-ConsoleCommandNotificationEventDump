@@ -2,11 +2,12 @@
 <otrs_package version="1.0">
     <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.33) -->
     <Name>ConsoleCommandNotificationEventDump</Name>
-    <Version>5.0.1</Version>
+    <Version>5.0.2</Version>
     <Framework>5.0.x</Framework>
     <Vendor>Perl-Services.de</Vendor>
     <URL>http://www.perl-services.de</URL>
-    <Description Lang="en">Console command to dump event notifications</Description>
+    <Description Lang="en">Console command to dump event notifications.</Description>
+    <Description Lang="hu">Konzolparancs az eseményértesítések kiírásához.</Description>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Filelist>
         <File Permission="644" Location="Kernel/System/Console/Command/Maint/NotificationEvent/Dump.pm" />
